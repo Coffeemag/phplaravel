@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/php', function () {
+    return view('phplearn');
+});
+
+Route::get('/php2', function () {
+    return view('phplearn2');
+});
